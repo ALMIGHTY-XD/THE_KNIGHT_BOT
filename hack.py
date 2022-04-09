@@ -22,7 +22,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-TheLastKnight = 5146119709
+TheLastKnight = 5194549776
 
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "THE_KNIGHT_xdBOT"
 
