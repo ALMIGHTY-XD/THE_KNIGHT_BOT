@@ -1,0 +1,44 @@
+{
+    "name": "Knight Hacker",
+    "description": " The most Powerful Telethon String Based Bot",
+    "logo": "https://te.legra.ph/file/db85c2eaf649eb7231a39.jpg",
+    "keywords": [
+        "TELETHON",
+        "THE LAST KNIGHT",
+        "Telegram Bot",
+        "KNIGHT OP",
+        "KNIGHT_KINGDOM"
+    ],
+    "website": "",
+    "success_url": "https://telegram.dog/TH3_LA5T_KN1GHT",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "YOUR_NAME": {
+            "description": "Your Name Plz",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
